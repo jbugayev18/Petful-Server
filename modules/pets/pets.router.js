@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
 router.delete("/", json, (req, res) => {
   // Remove a pet from adoption.
   const { pets } = req.body;
-  Pets.dequeue(pet);
+  Pets.dequeue(pets);
   res.status(204);
 });
 
