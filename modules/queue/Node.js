@@ -1,9 +1,9 @@
 //Creates a node containing the data and a reference to the next item
 
-class _Node {
-  constructor(value) {
+class Node {
+  constructor(value, next = null) {
     this.value = value;
-    this.next = null;
+    this.next = next;
   }
 }
 
