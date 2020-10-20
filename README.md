@@ -3,6 +3,9 @@
 
 # Links to Server and Client
 </br>
+Client: 
+</br>
+Server: https://cryptic-badlands-61007.herokuapp.com/ 
 
 
 # Summary 
