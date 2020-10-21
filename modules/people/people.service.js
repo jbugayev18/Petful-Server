@@ -15,7 +15,7 @@ module.exports = {
     const allPeople = {
       people: people.all(),
     };
-    return allPeople();
+    return allPeople;
   },
 
   enqueue(person) {
