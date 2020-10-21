@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
   return res.status(200).json(pets);
 });
 
-router.get("api/cats", (req, res) => {
+router.get("/cats", (req, res) => {
   res.status(200).send(cats);
 });
 

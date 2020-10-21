@@ -17,8 +17,8 @@ module.exports = {
   get() {
     // Return the pets next in line to be adopted.
     const nextToBeAdopted = {
-    cat = pets.cats.show(),
-    dog = pets.dogs.show()
+    cat : pets.cats.show(),
+    dog : pets.dogs.show()
 
     }
     return nextToBeAdopted; 
